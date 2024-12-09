@@ -1,0 +1,42 @@
+body{
+    background-color:#F5CCA0;
+}
+
+.navbar{
+    background-color:#6B240C;
+    
+}
+.navbar-brand, .navbar-toggler, .nav-link{
+    color: #E48F45;
+}
+.title {
+    text-align: left;
+    color: #994D1C;
+}
+
+#header-title {
+    font-size: 10vw;
+    font-size: 10vmin;
+}
+
+#header-container{
+    padding-right: 20vw;
+}
+
+.dessert-card{
+    background-color: white;
+    width: 20vw;
+    min-width: 325px;
+}
+
+.dessert-card>a>img{
+   
+}
+
+.dessert-card-body > p{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 0px;
+
+}
+
