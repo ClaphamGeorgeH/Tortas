@@ -1,5 +1,5 @@
 body{
-    background-color:#F5CCA0;
+    background-color: rgb(253, 247, 239);
 }
 
 .navbar{
@@ -19,6 +19,10 @@ body{
     font-size: 10vmin;
 }
 
+#header-description{
+    color: #E48F45;
+}
+
 #header-container{
     padding-right: 20vw;
 }
@@ -29,14 +33,24 @@ body{
     min-width: 325px;
 }
 
-.dessert-card>a>img{
-   
-}
-
 .dessert-card-body > p{
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 0px;
-
 }
 
+.dessert-card-body-description{
+    color: #E48F45;
+}
+
+.dessert-card-body-price{
+    
+}
+
+#dessert-container-title{
+    color: #994D1C;
+}
+
+.footer-container-address>p{
+    margin-bottom: 0px;
+}

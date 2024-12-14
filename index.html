@@ -32,7 +32,7 @@
     </div>
   </nav>
 
-  <nav class="d-lg-none navbar navbar-light sticky-top">
+  <nav class="d-lg-none navbar navbar-light sticky-top" id="offcanvasNavbar">
     <div class="container">
       <a class="navbar-brand" href="#"><i class="bi bi-cake2-fill"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -84,52 +84,54 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam culpa, odio provident magni dolorum nobis voluptates velit, cumque esse corporis, odit sunt voluptatum? Unde labore aperiam delectus quas recusandae excepturi?</p>
+                <p class="fs-4 text" id="header-description">Ofresco tortas de diversos sabores para deleitar tu paladar. Todas hechas a mano y con cariño. Si hay alguna que te interese... ¡No dudes en pedir una! ¡No te arrepentiras!</p>
             </div>
         </div>
     </div>
-    <div class="container">
+    
+    <div class="container" id="dessert-container">
+      <hr>
         <div class="row g-0 gy-4">
-            <div class="col-12"> Our Specialities</div>
-            <div class="col-12 col-md-4 dessert-card me-4">
+            <div class="col-12 fs-1" id="dessert-container-title"> Tortas disponibles</div>
+            <div class="col-12 col-md-4 align-self-center dessert-card me-4">
               <a href="">
                 <img src="images/chocolatecake_sample.jpg" class="img-fluid" alt="...">
               </a>
               <div class="dessert-card-body">
-                <p>Lemon Raspberry Cake</p>
-                <p>£45.00</p>
+                <p class="dessert-card-body-description">Lemon Raspberry Cake</p>
+                <p class="dessert-card-body-price">£45.00</p>
               </div>
             </div>
-            <div class="col-12 col-md-4 dessert-card me-4">
+            <div class="col-12 col-md-4 align-self-center dessert-card me-4">
               <a href="">
                 <img src="images/chocolatecake_sample.jpg" class="img-fluid" alt="...">
               </a>
               <div class="dessert-card-body">
-                <p>Lemon Raspberry Cake</p>
-                <p>£45.00</p>
+                <p class="dessert-card-body-description">Lemon Raspberry Cake</p>
+                <p class="dessert-card-body-price">£45.00</p>
               </div>
             </div>
-            <div class="col-12 col-md-4 dessert-card me-4">
+            <div class="col-12 col-md-4 align-self-center dessert-card me-4">
               <a href="">
                 <img src="images/cake_sample.webp" class="img-fluid" alt="...">
               </a>
               <div class="dessert-card-body">
-                <p>Lemon Raspberry Cake</p>
-                <p>£45.00</p>
+                <p class="dessert-card-body-description">Lemon Raspberry Cake</p>
+                <p class="dessert-card-body-price">£45.00</p>
               </div>
             </div>
-            <div class="col-12 col-md-4 dessert-card me-4">
+            <div class="col-12 col-md-4 align-self-center dessert-card me-4">
               <a href="">
                 <img src="images/cake_sample.webp" class="img-fluid" alt="...">
               </a>
               <div class="dessert-card-body">
-                <p>Lemon Raspberry Cake</p>
-                <p>£45.00</p>
+                <p class="dessert-card-body-description">Lemon Raspberry Cake</p>
+                <p class="dessert-card-body-price">£45.00</p>
               </div>
             </div>
         </div>
     </div>
-    <div style="background-color: #994D1C;" id="customers-container">
+    <!--<div style="background-color: #994D1C;" id="customers-container">
       <div class="container">
           <div class="row">
               <div class="col-12"> 
@@ -170,19 +172,23 @@
               </div>
           </div>
       </div>
-    </div>
+    </div>-->
+    <br>
     <div style="background-color:#E48F45;" id="footer-container">
       <div class="container">
           <div class="row" >
-              <div class="col-12 col-md-8">
-                  <h2>CAKELY</h2>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati consectetur facere voluptatum id ad atque quisquam quis! Omnis id cumque, libero nostrum praesentium magni autem, voluptatum vero tempore a mollitia.</p>
+              <div class="col-12 col-md-8 align-self-center">
+                  <p class="fs-2 text">¡Realizo todas mis tortas con ingredientes naturales!</p>
               </div>
-              <div class="col-12 col-md-2">
-                  <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+              <div class="col-12 col-md-2 footer-container-address">
+                  <p>Lima,</p>
+                  <p>Lima metropolitana,</p>
+                  <p>Santiago de Surco</p>
+                  <p>+51 999 999 999</p>
+                  <p>miariapia@gmail.com</p>
               </div>
-              <div class="col-12 col-md-2">
-                  <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+              <div class="col-12 col-md-2 footer-container-socialmedia">
+                  
               </div>
           
           </div>
