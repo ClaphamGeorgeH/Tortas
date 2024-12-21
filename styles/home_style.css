@@ -4,11 +4,17 @@ body{
 
 .navbar{
     background-color:#6B240C;
-    
 }
-.navbar-brand, .navbar-toggler, .nav-link{
+
+.navbar-brand, .nav-link{
+    color: #E48F45;
+    font-weight: bolder;
+}
+
+i.bi-list{
     color: #E48F45;
 }
+
 .title {
     text-align: left;
     color: #994D1C;
@@ -43,12 +49,14 @@ body{
     color: #E48F45;
 }
 
-.dessert-card-body-price{
-    
-}
-
 #dessert-container-title{
     color: #994D1C;
+}
+
+#footer-container{
+    background-color:#E48F45;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 .footer-container-address>p{
