@@ -10,5 +10,3 @@ for (let index = 0; index < offcanvasNavLinks.length; index++) {
         bsOffcanvas.hide();
     })
 }
-
-
