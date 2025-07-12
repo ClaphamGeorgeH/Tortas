@@ -1,64 +1,127 @@
-body{
-    background-color: rgb(253, 247, 239);
-}
-
+/*Navbar*/
 .navbar{
     background-color:#6B240C;
 }
-
 .navbar-brand, .nav-link{
     color: #E48F45;
     font-weight: bolder;
 }
-
 i.bi-list{
     color: #E48F45;
 }
 
+/*Header*/
 .title {
     text-align: left;
     color: #994D1C;
 }
 
 #header-title {
-    font-size: 10vw;
-    font-size: 10vmin;
+    font-size: 15vw;
+    font-size: 15vmin;
+    text-shadow: 2px 2px 9px black;
+}
+
+#header-slogan {
+    color: #cc6900;
+    font-size: 8vw;
+    font-size: 8vmin;
+    text-shadow: 2px 2px 6px black;
 }
 
 #header-description{
-    color: #E48F45;
+    color: black;
+    
 }
 
 #header-container{
     padding-right: 20vw;
 }
 
-.dessert-card{
-    background-color: white;
-    width: 20vw;
-    min-width: 325px;
+.dancing-script-brand {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-.dessert-card-body > p{
+.dancing-script-slogan {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*Desserts list*/
+.card{
+    box-shadow: 2px 2px 6px black;
+}
+
+.card-body > p{
     margin-left: 1vw;
     margin-right: 1vw;
-    margin-bottom: 0px;
 }
 
 .dessert-card-body-description{
     color: #E48F45;
 }
 
-#dessert-container-title{
-    color: #994D1C;
+.dessert-card-body-price{
+    margin: 0px;
+    padding: 0px;
 }
 
+#dessert-container-title{
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    font-size: 12vmin;
+}
+
+/*Footer*/
 #footer-container{
     background-color:#E48F45;
     padding-top: 35px;
     padding-bottom: 35px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.footer-container-address>p{
+#footer-container-address{
     margin-bottom: 0px;
+}
+
+#footer-container-socialmedia{
+    align-items: center;
+}
+
+/*General*/
+body {
+    background-color: white;
+}
+
+#background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a img.icon {
+    display: inline-block;
+    height: 1em;
+    margin: 0 0 -0.1em 0.3em;
 }
